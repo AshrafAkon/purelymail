@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "purelymail"
+version = "0.1.0"
+description = ""
+authors = ["Ashraful Firoz <ashraf.akon201@gmail.com>"]
+readme = "README.md"
+
+# Here you can add the source directory for your code.
+packages = [
+    { include = "purelymail" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+requests = "^2.32.3"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
